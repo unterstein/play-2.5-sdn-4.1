@@ -18,7 +18,7 @@ libraryDependencies ++= Seq(
   cache,
   ws,
   specs2 % Test,
-	"org.springframework.data" % "spring-data-neo4j" % "4.1.0.M1",
+  "org.springframework.data" % "spring-data-neo4j" % "4.1.0.M1"
 )
 
 resolvers += "scalaz-bintray" at "http://dl.bintray.com/scalaz/releases"
