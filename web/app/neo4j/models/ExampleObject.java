@@ -8,4 +8,10 @@ public class ExampleObject {
 
   @GraphId
   public Long id;
+
+  public String name;
+
+  public String test;
+
+  public String lala;
 }
