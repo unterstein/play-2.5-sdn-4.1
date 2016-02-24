@@ -1,14 +1,11 @@
 package modules
 
-import com.typesafe.config.ConfigFactory
-import org.neo4j.ogm.session.{Session, SessionFactory}
+import org.neo4j.ogm.session.SessionFactory
 import org.springframework.context.annotation._
 import org.springframework.data.neo4j.config.Neo4jConfiguration
 import org.springframework.data.neo4j.mapping.Neo4jMappingContext
 import org.springframework.data.neo4j.repository.config.EnableNeo4jRepositories
-import org.springframework.data.neo4j.server.{Neo4jServer, RemoteServer}
 import org.springframework.transaction.annotation.EnableTransactionManagement
-import play.api.Logger
 
 /**
  * @author Johannes Unterstein (unterstein@me.com)
