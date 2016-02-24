@@ -11,7 +11,4 @@ public class ExampleObject {
 
   public String name;
 
-  public String test;
-
-  public String lala;
 }
