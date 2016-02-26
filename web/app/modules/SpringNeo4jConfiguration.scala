@@ -17,7 +17,7 @@ class SpringNeo4jConfiguration extends Neo4jConfiguration {
 
   @Bean
   override def neo4jMappingContext: Neo4jMappingContext = {
-    new Neo4jMappingContext(getSessionFactory.metaData, this.getClass.getClassLoader)
+    new Neo4jMappingContext(getSessionFactory.metaData)
   }
 
   @Bean
