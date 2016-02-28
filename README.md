@@ -1,4 +1,11 @@
-This is your new Play application
-=================================
+# Motivation
 
-This file will be packaged with your application, when using `activator dist`.
+# Introduction
+
+# Neo4j & Spring Data
+
+# Playframework
+
+# ... the thing with dependency injection
+
+# Conclusion
