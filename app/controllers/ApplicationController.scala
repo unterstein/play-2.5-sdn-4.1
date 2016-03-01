@@ -13,7 +13,7 @@ import scala.collection.JavaConversions._
  * @author Johannes Unterstein (unterstein@me.com)
  */
 @Named
-class Application @Inject()(repo: PersonRepository) extends Controller {
+class ApplicationController @Inject()(repo: PersonRepository) extends Controller {
 
   def index = Action {
     Ok(views.html.index("Your new application is ready."))
