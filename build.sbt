@@ -24,7 +24,9 @@ libraryDependencies ++= Seq(
   specs2 % Test,
   "org.springframework.data" % "spring-data-neo4j" % "4.1.0.BUILD-SNAPSHOT" changing(),
   "org.neo4j" % "neo4j-ogm-core" % "2.0.0-SNAPSHOT" changing(),
-  "org.springframework.guice" % "spring-guice" % "1.0.0.BUILD-SNAPSHOT"
+  "org.springframework.guice" % "spring-guice" % "1.0.0.BUILD-SNAPSHOT",
+  "org.webjars" %% "webjars-play" % "2.4.0-2",
+  "org.webjars" % "bootstrap" % "3.3.6"
 )
 
 // Play provides two styles of routers, one expects its actions to be injected, the
