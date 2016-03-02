@@ -20,8 +20,8 @@ public class Movie extends BaseModel {
 
   public String tagline;
 
-  @Relationship(type = Relations.ACTED_IN, direction = Relationship.INCOMING)
-  public Set<ActedIn> actors;
+//  @Relationship(type = Relations.ACTED_IN, direction = Relationship.INCOMING)
+//  public Set<ActedIn> actors;
 
   @Relationship(type = Relations.DIRECTED, direction = Relationship.INCOMING)
   public Set<Person> directors;

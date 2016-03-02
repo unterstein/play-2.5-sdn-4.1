@@ -10,7 +10,7 @@ import org.neo4j.ogm.annotation.StartNode;
  *
  * @author Johannes Unterstein (unterstein@me.com)
  */
-@RelationshipEntity(type = "ACTED_IN")
+//@RelationshipEntity(type = "ACTED_IN")
 public class ActedIn {
 
   @Property
