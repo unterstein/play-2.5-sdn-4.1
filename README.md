@@ -2,7 +2,7 @@
 
 My good friend Seppel (@tuxBurner) is maintaining the SpringData-Neo4j-Plugin for the @playframework (https://github.com/tuxBurner/play-neo4jplugin).
 On the other hand is Michael (@jexp) who visited us a several times in our java user group and we have a good relationship to him. He asked us how the plugin works with
-the new SpringData-Neo4j in Version 4.0 and honestly we had not that much time to upgrade and test it. Therefore @tuxBurner receives a lot of traffic on his upgrade issue (https://github.com/tuxBurner/play-neo4jplugin/XYZ).
+the new SpringData-Neo4j in Version 4.0 and honestly we had not that much time to upgrade and test it. Therefore @tuxBurner receives a lot of traffic on his upgrade issue (https://github.com/tuxBurner/play-neo4jplugin/22).
 Two weeks ago @jexp asked me if i could write an article about the @playframework, the new SpringData-Neo4j 4.1-M1 and @neo4j. I knew about the issues in the plugin and decided to do a fresh sample project.
 
 # Introduction
