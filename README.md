@@ -7,7 +7,7 @@ Two weeks ago @jexp asked me if i could write an article about the @playframewor
 
 ## where is the class?
 I had some issues with SDN 4.1 and my beloved ```ClassNotFoundException```. The problem at this point is, that the @playframework has it´s own special class loading mechanism which is really cool for this whole
-class reloading magic during development.
+class reloading magic during development. The problem with this magic is, that Class.forName(...) does not always works as expected.
 
 # Introduction
 
